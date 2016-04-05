@@ -7,7 +7,7 @@ Checkbox Button fácil de ser utilizado em seus projetos.
     chkBlue.delegate = self
     view.addSubview((chkBlue))
     
-    // Função obrigatório para do Delegate (UICheckboxButtonDelegate)
+    // Função obrigatório do Delegate (UICheckboxButtonDelegate)
     func didClickCheckbox(checkBox: UICheckboxButton) {
         
         let isMarcado = checkBox.isChecked ? "Marcou" : "Desmarcou"
