@@ -12,6 +12,7 @@
 		49B0AADE1CB3685300E08968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B0AADC1CB3685300E08968 /* Main.storyboard */; };
 		49B0AAE01CB3685300E08968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B0AADF1CB3685300E08968 /* Assets.xcassets */; };
 		49B0AAE31CB3685300E08968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B0AAE11CB3685300E08968 /* LaunchScreen.storyboard */; };
+		49B0AAEB1CB36A4D00E08968 /* UICheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0AAEA1CB36A4D00E08968 /* UICheckboxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		49B0AADF1CB3685300E08968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B0AAE21CB3685300E08968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B0AAE41CB3685300E08968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B0AAEA1CB36A4D00E08968 /* UICheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckboxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				49B0AADF1CB3685300E08968 /* Assets.xcassets */,
 				49B0AAE11CB3685300E08968 /* LaunchScreen.storyboard */,
 				49B0AAE41CB3685300E08968 /* Info.plist */,
+				49B0AAEA1CB36A4D00E08968 /* UICheckboxButton.swift */,
 			);
 			path = "Checkbox-in-Swift";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B0AAEB1CB36A4D00E08968 /* UICheckboxButton.swift in Sources */,
 				49B0AADB1CB3685300E08968 /* ViewController.swift in Sources */,
 				49B0AAD91CB3685300E08968 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				49B0AAE91CB3685300E08968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
