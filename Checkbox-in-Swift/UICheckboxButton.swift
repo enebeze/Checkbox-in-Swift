@@ -17,6 +17,7 @@ class UICheckboxButton: UIButton {
     var delegate: UICheckboxButtonDelegate?
 
     var imgView: UIImageView!
+    var checkBoxLabel : UILabel!
     var isChecked: Bool = false {
         didSet {
             showCurrentState()
@@ -74,6 +75,9 @@ class UICheckboxButton: UIButton {
         imgView = UIImageView(frame: CGRectMake(0, 0, 29, 29))
         // Adiciona a viewImage
         self.addSubview(imgView)
+        
+        checkBoxLabel = UILabel(frame: CGRect(x: 35, y: 0, width: 150, height: 29))
+        self.addSubview(checkBoxLabel)
         
         // Adiciona o método clicar do botão
         self.addTarget(self, action: #selector(UICheckboxButton.checkBoxClicked), forControlEvents: UIControlEvents.TouchUpInside)
